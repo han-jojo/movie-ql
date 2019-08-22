@@ -1,6 +1,12 @@
+const comsenpai = {
+    name: "jiho",
+    age: "25",
+    sex: "male"
+};
+
 const resolvers = {
     Query: {
-        name: () => "comsenpai"
+        person: () => comsenpai
     }
 };
 
