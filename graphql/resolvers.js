@@ -1,12 +1,8 @@
-const comsenpai = {
-    name: "jiho",
-    age: "25",
-    sex: "male"
-};
+import { people } from "./db";
 
 const resolvers = {
     Query: {
-        person: () => comsenpai
+        people: () => people
     }
 };
 
